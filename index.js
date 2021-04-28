@@ -5,6 +5,5 @@ main.remove();
 
 document.createElement("h1");
 document.body.main.appendChild("h1");
-let newHeader = document.body.querySelector("h1");
-h1.setAttribute("id", "victory");
-newHeader = document.body.querySelector("h1#victory");
+document.body.querySelector("h1").setAttribute("id", "victory");
+let newHeader = document.body.main.querySelector("h1#victory");
